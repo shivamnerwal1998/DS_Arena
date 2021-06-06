@@ -1,0 +1,45 @@
+.NavContainer{
+  width : 100% ; 
+  background-color: rgb(20, 0, 0);
+
+}
+.Lis {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  
+  }
+  
+.Cont {
+    display: block;
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: right;
+  }
+.Home{
+    display: block;
+    font-weight: 800;
+   color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:left;
+  }
+  
+ 
+  
+  /* Change the link color to #111 (black) on hover */
+  .Home:hover {
+    background-color: rgb(172, 150, 150);
+  }
+  .Cont:hover{
+      background-color:rgb(172, 150, 150);
+  }
+  
+
+
+  
