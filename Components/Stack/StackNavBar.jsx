@@ -1,14 +1,17 @@
 import React from "react";
-import "./StackNavBar.css" ;
+import "./StackNavBar.css";
+import { NavLink } from "react-router-dom";
 const StackNavBar = () => {
     const elem = <>
         <ul className="StUl">
             <h2>Stack</h2>
-            <li><a className="StLink" href="#home">Push</a></li>
-            <li><a className="StLink" href="#news">Pop</a></li>
-            <li><a className="StLink" href="#contact">peek</a></li>
-            <li><a className="StLink" href="#about">Complete Program</a></li>
+            <li><NavLink className="StLink"  to="/stack">About</NavLink></li>
+            <li><NavLink className="StLink" activeClassName="Selected" to="/stack/push">Push</NavLink></li>
+            <li><NavLink className="StLink" activeClassName="Selected" to="/stack/pop">Pop</NavLink></li>
+            <li><NavLink className="StLink" activeClassName="Selected"   to="/stack/peek">peek</NavLink></li>
+            <li><NavLink className="StLink" to="/stack/code">Complete Program</NavLink></li>
         </ul>
+
     </>
     return elem;
 }
