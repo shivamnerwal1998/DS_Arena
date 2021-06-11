@@ -3,7 +3,9 @@ import NavBar from "./StackNavBar" ;
 const Peek = ()=>{
     const elem = <>
     <NavBar/>
-    <h1>Peek Function</h1>
+    <div className="StackContainer">
+        <h1>Peek </h1>
+        </div>
     </>
     return elem ; 
 } 

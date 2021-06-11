@@ -3,7 +3,9 @@ import NavBar from "./StackNavBar" ;
 const Pop = ()=>{
     const elem = <>
     <NavBar/>
-    <h1>Pop Function</h1>
+    <div className="StackContainer">
+        <h1>POP</h1>
+        </div>
     </>
     return elem ; 
 } 

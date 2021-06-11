@@ -16,26 +16,27 @@
     color: white;
     font-weight: 600;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px 18px;
     text-decoration: none;
     float: right;
   }
 .Home{
     display: block;
-    font-weight: 800;
+    font-weight: 1000;
    color: white;
+   font-size:130%;
+   padding-top: 10px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    padding-left: 50px;
+    font-family:cursive;
+    letter-spacing: 4px;
+
     float:left;
-  }
+}
   
  
   
   /* Change the link color to #111 (black) on hover */
-  .Home:hover {
-    background-color: rgb(172, 150, 150);
-  }
   .Cont:hover{
       background-color:rgb(172, 150, 150);
   }

@@ -3,7 +3,9 @@ import SNavBar from "./StackNavBar" ;
 const Push = ()=>{
     const elem = <>
     <SNavBar/>
-    <h1>Push Function</h1>
+    <div className="StackContainer">
+        <h1>push </h1>
+        </div>
     </>
     return elem ; 
 } 
